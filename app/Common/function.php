@@ -1044,7 +1044,7 @@ function dir_delete($dir)
 //对象转数组
 function object_to_array($object, $get=0)
 {
-	$res = '';
+	$res = [];
 	if(!empty($object))
 	{
 		if($get==0)

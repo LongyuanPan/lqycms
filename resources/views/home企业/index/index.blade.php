@@ -1,7 +1,7 @@
 <!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1"><link href="<?php echo sysconfig('CMS_BASEHOST'); ?>/favicon.ico" type="image/x-icon" rel="shortcut icon">
 <title><?php echo sysconfig('CMS_WEBNAME'); ?></title>
-<link rel="stylesheet" href="<?php echo sysconfig('CMS_BASEHOST'); ?>/css/bootstrap.min.css"><link rel="stylesheet" href="<?php echo sysconfig('CMS_BASEHOST'); ?>/css/style.css"><script src="<?php echo sysconfig('CMS_BASEHOST'); ?>/js/jquery.min.js"></script><script src="<?php echo sysconfig('CMS_BASEHOST'); ?>/js/bootstrap.min.js"></script><script src="<?php echo sysconfig('CMS_BASEHOST'); ?>/js/ad.js"></script></head><body>
+<link rel="stylesheet" href="<?php echo sysconfig('CMS_BASEHOST'); ?>/css/bootstrap.min.css"><link rel="stylesheet" href="http://192.168.0.112:8090/css/style.css"><script src="http://192.168.0.112:8090/js/jquery.min.js"></script><script src="<?php echo sysconfig('CMS_BASEHOST'); ?>/js/bootstrap.min.js"></script><script src="<?php echo sysconfig('CMS_BASEHOST'); ?>/js/ad.js"></script></head><body>
 
 @include('home.common.header')
 <div class="container marketing">

@@ -1,7 +1,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="<?php echo route('home'); ?>/css/bootstrap.min.css"><link rel="stylesheet" href="<?php echo route('home'); ?>/css/admin.css">
-<script src="<?php echo route('home'); ?>/js/jquery.min.js"></script><script src="/js/ad.js"></script><script src="<?php echo route('home'); ?>/js/bootstrap.min.js"></script><script type="text/javascript" src="<?php echo route('home'); ?>/js/jquery.uploadify.min.js"></script></head><body>
+<script src="http://192.168.0.112:8090/js/jquery.min.js"></script><script src="/js/ad.js"></script><script src="<?php echo route('home'); ?>/js/bootstrap.min.js"></script><script type="text/javascript" src="<?php echo route('home'); ?>/js/jquery.uploadify.min.js"></script></head><body>
 
 <div class="blog-masthead clearfix"><nav class="blog-nav">
 <a class="blog-nav-item active" href="<?php echo route('admin'); ?>"><span class="glyphicon glyphicon-star"></span> <strong>后台管理中心</strong> <span class="glyphicon glyphicon-star-empty"></span></a>

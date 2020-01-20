@@ -6,7 +6,7 @@
             <span class="mobile">
                 <a class="mobileLink" href="javascript:;">
                   手机版
-                  <img class="weixin-qr" src="<?php echo env('APP_URL'); ?>/images/weixin/erweima.png">
+                  <img class="weixin-qr" src="http://192.168.0.112:8090/images/weixin/erweima.png">
                 </a>
             </span>
             <span class="login-info"><a class="user-nick" href="<?php echo route('home'); ?>"><?php echo sysconfig('CMS_WEBNAME'); ?></a></span>
@@ -18,7 +18,7 @@
 </div>
 <div class="ju-naver">
     <div class="box">
-        <h1 class="logo mouseleave"><a class="ju-logo ju-logo-show" href="<?php echo route('home'); ?>" title="logo"><img src="<?php echo env('APP_URL'); ?>/images/logo.png"></a></h1>             
+        <h1 class="logo mouseleave"><a class="ju-logo ju-logo-show" href="<?php echo route('home'); ?>" title="logo"><img src="http://192.168.0.112:8090/images/logo.png"></a></h1>
         <ul id="J_NavMenu" class="nav-menu">  
             <li class="menu-home<?php if(route('home') == url()->full()){echo ' current';} ?>"><a class="menu-link" href="<?php echo route('home'); ?>">首页</a></li>
             <li class="menu-goodslist<?php if(route('home_goodslist') == url()->full()){echo ' current';} ?>"><a class="menu-link" href="<?php echo route('home_goodslist'); ?>">优质精选</a></li>
